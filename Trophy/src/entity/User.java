@@ -42,6 +42,7 @@ public class User {
 	
 	public boolean startStudyMoment(Course c, Date startd, StudyType sp) {
 		//if no studymoment running => start studymoment
+		
 		// return true if could start
 		return false;
 	}
