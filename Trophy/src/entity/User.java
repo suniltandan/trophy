@@ -1,6 +1,7 @@
 package entity;
 
 import java.util.ArrayList;
+import java.util.Date;
 
 import trophy.Trophy;
 
@@ -39,7 +40,7 @@ public class User {
 		return false;
 	}
 	
-	public boolean startStudyMoment() {
+	public boolean startStudyMoment(Course c, Date startd, StudyType sp) {
 		//if no studymoment running => start studymoment
 		// return true if could start
 		return false;
