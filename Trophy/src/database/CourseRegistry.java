@@ -15,8 +15,7 @@ import entity.Course;
 
 public class CourseRegistry {
 	public boolean setCourse(Course c) {
-		Key activiteit = KeyFactory.createKey("Courses", "courses");
-
+		
 		return false;
 	}
 	
@@ -24,3 +23,4 @@ public class CourseRegistry {
 		return null;
 	}
 }
+
