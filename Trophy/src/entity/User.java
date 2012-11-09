@@ -49,7 +49,7 @@ public class User {
 		return studymoments;
 	}
 	
-	public StudyMoment stopStudyMoment() {
+	public boolean stopStudyMoment() {
 		//return true if could stop studymoment
 		return false;
 	}
