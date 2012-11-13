@@ -1,19 +1,26 @@
 package entity;
 
 public class Course {
-	private String coursename;
-	private int coursepoints;
 	
-	public Course(String cname, int cp) {
-		coursename = cname;
-		coursepoints = cp;
+	private String courseName;
+	private String courseID;
+	private int credits;
+	
+	public Course(String name, String ID, int credits) {
+		this.courseName = name;
+		this.courseID = ID;
+		this.credits = credits;
 	}
 	
 	public String getCourseName() {
-		return coursename;
+		return courseName;
+	}
+	
+	public String getCourseID() {
+		return courseID;
 	}
 	
 	public int getCoursePoints() {
-		return coursepoints;
+		return credits;
 	}
 }
